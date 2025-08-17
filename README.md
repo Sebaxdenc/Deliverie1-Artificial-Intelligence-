@@ -17,6 +17,7 @@ Desarrollo de un agente de búsqueda para navegación de un dron en una ciudad m
 - Modelo CityGraph: coordenadas por nodo; aristas no dirigidas con penalización de viento; costo de arista = euclidiana + λ_w · viento; heurística h = euclidiana (admisible/consistente).
 - Algoritmos: A* con cola de prioridad y trazas (verbose), BFS no ponderado; reconstrucción de camino y cálculo del costo real del camino.
 - Demo: malla 5×4 (A0..E3); calles restringidas y mapa de vientos (con claves frozenset); atajos diagonales; aristas agregadas de forma explícita.
+- Las coordenadas se crearon de tal manera que la distancia horizontal entre cualesquiera dos nodos va a ser de 1, y la distancia diagonal sera la raiz cuadrada de 2
 
      ![grafo de la ciudad](imgs/grafo_agente_busqueda.png)
 
