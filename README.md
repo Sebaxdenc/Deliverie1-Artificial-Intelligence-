@@ -18,6 +18,8 @@ Desarrollo de un agente de búsqueda para navegación de un dron en una ciudad m
 - Algoritmos: A* con cola de prioridad y trazas (verbose), BFS no ponderado; reconstrucción de camino y cálculo del costo real del camino.
 - Demo: malla 5×4 (A0..E3); calles restringidas y mapa de vientos (con claves frozenset); atajos diagonales; aristas agregadas de forma explícita.
 
+     ![grafo de la ciudad](imgs/grafo_agente_busqueda.png)
+
 ### Tecnologías y librerías
 - Python 3
 - Librerías estándar: math (hypot), heapq, time, dataclasses, typing, collections.deque
