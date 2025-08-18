@@ -3,7 +3,7 @@
 
 ## Participantes
 - Sebastian Andres Medina Cabezas
-- Samuel DeOssa
+- Samuel Deossa
 
 ## Problema 1
 
